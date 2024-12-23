@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leslie Boatwright - Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init('4t2shZZqPuC6xfaLl'); // Zamenite sa svojim USER ID iz EmailJS dashboard-a
+</script>
+</head>
+<body class="font-sans text-gray-900">
+    <!-- Page 1: Home Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('292590911_1019579562256066_6929418567840752858_n.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50">
+            <div class="absolute top-4 left-4">
+                <img src="330393004_127887196862745_204681877663497969_n.jpg" alt="Logo" class="h-16 w-16 rounded-full border-2 border-white">
+            </div>
+            <div class="flex items-center justify-center h-full">
+                <div class="text-center text-white px-4">
+                    <h1 class="text-4xl font-bold fade-in">APARTMANI MILA</h1>
+                    <h2 class="text-lg font-light mt-2 fade-in">Zlatibor</h2>
+                    <h3 class="text-3xl font-semibold mt-4 fade-in">Mir, tišina, komfor i udobnost</h3>
+                    <button class="mt-6 px-6 py-2 border border-white text-white font-semibold rounded hover:bg-white hover:text-black transition fade-in">
+                        KONTAKTIRAJTE NAS NA VREME
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Consultation Section -->
+    <section class="bg-[#453f35] text-white py-16">
+        <div class="container mx-auto text-center">
+            <p class="mb-6 text-lg">
+                Apartman Mila Sunce kapaciteta dve odrasle osobe nalazi se na jednoj od najatraktivnijih lokacija na Zlatiboru. Lociran je preko puta kompleksa Titovs vila i gostima pruža mogućnost korišćenja bogatih sadržaja, kao što su bazen, spa&wellness, teretana, restoran muzej Titovs vila.
+Gostima se nudi u potpuno novom ruhu. Udoban krevet nakon razvlačenja pretvara se u mega ležaj. Apartman poseduje dva TV-a, jedan u dnevnom boravku i drugi na raskošnoj terasi sa koje se širi prekrasan pogled.
+Kuhinja je opremljena u potpunosti. Jutarnja kafa na terasi može biti domaća, nes ili frape,s obzirom na aparate koji se tu nalaze.
+Kupatilo je prostrano, i tu je mašina za pranje i sušenje veša, fen za kosu... Posteljina od finih materijala, mekani peškiri i dobra volja gostiju je sve što savremenom čoveku treba u apartmanu Mila Sunce, pogodnom za dve osobe.
+Parking, wifi, satelitska TV sa više od 600 kanala takođe su deo ponude.
+Vaše je da dođete i uživate!
+            </p>
+        </div>
+    </section>
+
+     <!-- Page 3: Homes for Sale Section -->
+     <section class="bg-[#f9f6f1] py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-12">APARTMANI ZA IZDAVANJE</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="292469942_609943610311959_3762419662663693866_n.jpg" alt="Property 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <span class="text-gray-500 text-sm uppercase">Mila Sunce</span>
+                        <h3 class="text-lg font-bold text-gray-800 mt-2">Zlatibor</h3>
+                        <p class="text-gray-600 mt-1">2 Beds | 2 Baths | 1 Car</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="292087427_859182825057676_4728838453012885132_n.jpg" alt="Property 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <span class="text-gray-500 text-sm uppercase">Mila Titova Vila</span>
+                        <h3 class="text-lg font-bold text-gray-800 mt-2">Zlatibor</h3>
+                        <p class="text-gray-600 mt-1">2 Beds | 2 Baths | 2 Cars</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Page 4: Video Tour Section -->
+    <section class="relative h-screen">
+        <div class="absolute inset-0">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/zOWuNnBF_ZE?autoplay=1&mute=1&loop=1&playlist=zOWuNnBF_ZE" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white px-4">
+                <h2 class="text-3xl font-bold mb-4">EXPLORE A VIDEO TOUR</h2>
+                <p class="mb-6">Highlight specific services or products here. It can be a property appraisal service, a consultation, or something uniquely yours. Give it room to shine here.</p>
+                <button class="px-6 py-2 bg-white text-gray-800 font-semibold rounded hover:bg-gray-200 transition">
+                    WATCH NOW
+                </button>
+            </div>
+        </div>
+    </section>
+
+<!-- Page 5: Client Testimonials Section -->
+<section class="bg-[#f9f6f1] py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-12">CLIENT TESTIMONIALS</h2>
+        <div id="carousel" class="flex overflow-x-hidden">
+            <div class="flex w-full space-x-8 transition-transform duration-500 ease-in-out">
+                <div class="min-w-[33.333%]">
+                    <p class="text-gray-600">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
+                    <p class="mt-4 font-bold">- AARON LOEB</p>
+                </div>
+                <div class="min-w-[33.333%]">
+                    <p class="text-gray-600">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
+                    <p class="mt-4 font-bold">- JULIANA SILVA</p>
+                </div>
+                <div class="min-w-[33.333%]">
+                    <p class="text-gray-600">Boost your product and service's credibility by adding testimonials from your clients.</p>
+                    <p class="mt-4 font-bold">- PHYLLIS SCHWAIGER</p>
+                </div>
+                <div class="min-w-[33.333%]">
+                    <p class="text-gray-600">Great service and amazing properties. I'm so happy I chose this team to help me find my home.</p>
+                    <p class="mt-4 font-bold">- JANE DOE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Page 6: Contact Section -->
+    <section class="bg-[#2c2c2c] text-white py-16">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+                <img src="330393004_127887196862745_204681877663497969_n.jpg" alt="Logo" class="h-16 w-16 rounded-full">
+                <h2 class="text-3xl font-bold">GET IN TOUCH</h2>
+                <p>Main Office<br>123 Anywhere St.<br>Any City, ST 12345</p>
+                <p>Tel: (123) 456-7890<br>Email: hello@reallygreatsite.com<br>Social: @reallygreatsite</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form id="contactForm" class="bg-white text-gray-800 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium">Email Address</label>
+                        <input type="email" id="email" class="w-full border border-gray-300 rounded py-2 px-3" placeholder="Your email address" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium">Message</label>
+                        <textarea id="message" class="w-full border border-gray-300 rounded py-2 px-3" rows="4" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+    
+            const templateParams = {
+                email: email,
+                message: message,
+            };
+    
+            emailjs.send('service_gcahhip', 'template_6kult8g', templateParams)
+                .then(function(response) {
+                    alert('Message sent successfully!');
+                }, function(error) {
+                    alert('Failed to send message. Please try again.');
+                });
+        });
+    </script>   
+
+<script>
+    const carousel = document.querySelector('#carousel > div');
+    let currentIndex = 0;
+    const testimonials = carousel.children;
+    const visibleCount = 3;
+    const totalCount = testimonials.length;
+
+    function updateCarousel() {
+        const offset = currentIndex * (100 / visibleCount);
+        carousel.style.transform = `translateX(-${offset}%)`;
+    }
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % (totalCount - visibleCount + 1);
+        updateCarousel();
+    }, 3000);
+
+    updateCarousel();
+</script>
+</body>
+</html>
